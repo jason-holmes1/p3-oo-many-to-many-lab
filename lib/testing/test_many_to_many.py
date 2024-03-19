@@ -74,7 +74,7 @@ def test_author_has_books():
     book = Book("Title")
     Contract(author, book, '01/01/2001', 50000)
 
-    assert book in author.books()
+    assert book in author.books
 
 def test_book_has_contracts():
     """Test Book class has method contracts() that returns a list of its contracts"""
@@ -90,7 +90,7 @@ def test_book_has_authors():
     book = Book("Title")
     Contract(author, book, '01/01/2001', 50000)
 
-    assert author in book.authors()
+    assert author in book.authors
 
 def test_author_can_sign_contract():
     """Test Author class has method sign_contract() that creates a contract for an author and book"""

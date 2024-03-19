@@ -50,7 +50,6 @@ All classes should also keep track of `all` members using a class variable.
   royalties property should be a number that represents the percentage of
   royalties that the author will receive for the book.
   - All setters should `raise Exception` upon failure.
-
 The `Author` class should have the following methods:
 
 - `contracts(self)`: This method should return a list of related contracts.
